@@ -67,6 +67,7 @@ body {
     color: #CCC;
     border-radius: 50%;
     cursor: not-allowed;
+    pointer-events: none;
 }
 
 form {
