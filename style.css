@@ -53,6 +53,7 @@ body {
     cursor: pointer;
     background-color: #EEE;
     border: 2px solid #CCC;
+    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.2);
 }
 
 .reserved {
@@ -121,5 +122,4 @@ input, .btn_submit {
     font-size:16px;
     background-color: #008000;
     color: #EEE;
-    box-shadow: 0px 5px 15px 1px rgba(0,0,0,0.3);
 }
