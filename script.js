@@ -4,7 +4,7 @@ $(document).ready(function () {
     $(".available").on("click", function (e) {
         $("form").css("display", "flex");
         selectedTable = e.target
-        $(".tablenum").text(`Table Number: ${$(selectedTable).children(1).text()}`)
+        $(".tablenum").text(`Table Number: ${$(selectedTable).text()}`)
     })
 
     $(".close").on("click", function () {
