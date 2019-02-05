@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     background-color: #E1D7D4;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 .text {
