@@ -28,7 +28,7 @@ $(document).ready(function () {
     })
 
     $(document).on("mouseenter", ".reserved", function (event) {
-        $(".popup").css("display", "block")
+        $(event.target).children(1).css("display", "block")
       }).on("mouseleave", ".reserved", (event) => {
         $(".popup").css("display", "none")
       });
