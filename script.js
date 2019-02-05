@@ -15,8 +15,9 @@ $(document).ready(function () {
         $("form").hide()
     })
 
-    $(".btn_submit").on("click", function () {
+    $(document).on("click", ".btn_submit", function (e) {
         $(selectedTable).removeClass("available").addClass("reserved")
+        // $(selectedTable).off("click", function)
         $("form").hide()
     })
 });
