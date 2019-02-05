@@ -16,8 +16,7 @@ $(document).ready(function () {
     })
 
     $(".btn_submit").on("click", function () {
-        $(selectedTable).removeClass("available")
-        $(selectedTable).addClass("reserved")
+        $(selectedTable).removeClass("available").addClass("reserved")
         $("form").hide()
     })
 });
