@@ -4,6 +4,7 @@ $(document).ready(function () {
     $(".available").on("click", function (e) {
         $("form").css("display", "flex");
         selectedTable = e.target
+        $(".tablenum").html("")
         $(".tablenum").append(`Table Number: ${$(selectedTable).children(1).text()}`)
         console.dir(selectedTable)
     })
